@@ -47,4 +47,12 @@ public class Clase1Test {
         assertEquals(9, result);
     }
     
+    @Test
+    public void testSumar2() {
+        System.out.println("sumar2");
+        Clase1 instance = new Clase1();
+        int result = instance.sumar(10, 50);
+        assertEquals(59, result);
+    }
+    
 }
